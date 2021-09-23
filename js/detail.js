@@ -9,7 +9,7 @@ const id = params.get("id");
 console.log(id);
 
 
-const url = "https://api.rawg.io/api/games/" + id;
+const url = "https://api.rawg.io/api/games/" + id + "?key=54582cd735a340b89b17702eae51578b";
 
 console.log(url);
 
